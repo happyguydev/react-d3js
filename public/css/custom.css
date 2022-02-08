@@ -1,0 +1,1005 @@
+@font-face {
+   font-family: 'PayPal Sans Big Medium';
+   font-style: normal;
+   font-weight: 500;
+   src: url('/fonts/PayPalSansBig-Medium.otf') format('opentype');
+}
+@font-face {
+   font-family: 'PayPal Sans Big Thin';
+   font-style: normal;
+   font-weight: normal;
+   src: url('/fonts/PayPalSansBig-Thin.otf') format('opentype');
+
+}
+@font-face {
+   font-family: 'PayPal Sans Big Light';
+   font-style: normal;
+   font-weight: 300;
+   src: url('/fonts/PayPalSansBig-App-Light.ttf') format('truetype'),
+        url('/fonts/PayPalSansBig-App-LightItalic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'PayPal Sans Big';
+   font-style: normal;
+   font-weight: normal;
+   src: url('/fonts/PayPalSansBig-App-Regular.ttf') format('truetype'),
+        url('/fonts/PayPalSansBig-App-RegularItalic.ttf') format('truetype');
+
+} 
+.dHide {
+    display: none !important;
+}
+.row{
+    margin:auto !important;
+    padding-left: 15px;  /* 2/1/2019 gs*/
+    padding-right: 15px; /* 2/1/2019 gs*/
+}
+.wrapper {
+    position: relative;
+}
+.slider_whole_dot_bar {
+    padding-left: 110px;
+}
+.slider_whole_dot_map {
+    padding-left: 10px;
+}
+.slider_whole_dot_bar {
+    padding-left: 110px;
+}
+.bottom_footer_section {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+}
+.container-fluid {
+    padding: 80px 70px 30px 80px !important; /* 2/1/2019 gs*/
+}
+.feedback_full { /* 2/1/2019 gs*/
+    padding-bottom: 40px;
+}
+.feed_other { /* 2/1/2019 gs*/
+    padding-top: 37px;
+}
+.right_reserve { /* 2/1/2019 gs*/
+    position: relative;
+    min-height: 105px;
+}
+.update_prt { /* 2/1/2019 gs*/
+    font-family: PayPal Sans Big Light;
+    font-size: 12px;
+    letter-spacing: -0.1px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.nimblet { /* 2/1/2019 gs*/
+    font-family: PayPal Sans Big Medium;
+}
+.bottom_one { /* 2/1/2019 gs*/
+    padding-left: 0 !important;
+}
+.iuv_info { /* 2/1/2019 gs*/
+    width: 100%;
+    display: inline-flex;
+    vertical-align: middle;
+    padding-bottom: 14px;
+}
+.iuv-txt { /* 2/1/2019 gs*/
+    font-family: PayPal Sans Big Medium;
+    font-size: 16px;
+    letter-spacing: -0.1px;
+    color: #ffffff;
+    width: 30%;
+    vertical-align: middle;
+    float: left;
+    padding-top: 8px;
+}
+.info-txt { /* 2/1/2019 gs*/
+    font-family: PayPal Sans Big Light;
+    font-size: 18px;
+    letter-spacing: -0.1px;
+    color: #ffffff;
+    float: right;
+    width: 70%;
+}
+.mobile-bottom { /* 2/1/2019 gs*/
+    width: 100%;
+    display: none;
+}
+.Msingle_line { /* 2/1/2019 gs*/
+    border: 7px solid #0064c7;
+    margin-bottom: 33px;
+    width: 100%;
+    max-width: 390px;
+}
+.mobile-bottom p {  /* 2/1/2019 gs*/
+    font-family: PayPal Sans Big Light;
+    font-size: 18px;
+    color: #000000;
+    max-width: 325px;
+}
+.mobile-bottom_txt {
+    padding-top: 60px;
+    display: none;
+}
+.mobile-bottom_txt .love_txt { /* 2/1/2019 gs*/
+    color: #000;
+}
+.papl-logo {
+    border-right: 5px solid #d8d8d8;
+    padding-right: 45px;
+}
+.word-logo {
+    padding-left: 41px;
+}
+img {
+    max-width: calc(100% - (0 * 30px));
+}
+.watch_text {
+    max-width: 558px;
+    font-size: 44px;
+    color: #000000;
+    font-family: PayPal Sans Big Light;
+}
+.paypal_text {
+    color: #0064c7;
+    font-family: PayPal Sans Big Medium;
+}
+.button_sec {
+    margin-top: 68px;
+}
+.footer-sec .button_sec {
+    margin-top: 5px;
+    padding-left: 0px;
+}
+.papal_buttn {
+    max-width: 318px;
+}
+.papal_buttn a {
+    color: #fff;
+    width: 100%;
+    border-radius: 50px;
+    background-color: #0064c7;
+    text-align: center;
+    padding: 35px 25px 22px 25px;
+    font-size: 18px;
+    font-family: PayPal Sans Big;
+    display: inline-flex;
+}
+.papal_buttn a::before {
+    content: url('/image/paypal_icon.png');
+    padding-right: 18px;
+}
+.scroll_cntnu {
+    width: 100%;
+    text-align: center;
+    font-family: PayPal Sans Big Light;
+}
+.scroll_begin {
+    width: 100%;
+    text-align: center;
+    font-family: PayPal Sans Big Light;
+}
+.scroll_text {
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 16px;
+    text-decoration: none;
+    color: black;
+}
+.scroll_icon {
+    max-width: 50px;
+    margin: auto;
+    cursor: pointer;
+    padding-bottom: 3vh;
+}
+section {
+    position:relative;
+}
+.scrollNext {
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+.sec_first {
+    background-image: url(/image/05.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+.sec_second {
+    padding: 0;
+    height: 100vh;
+}
+.sec_third {
+    padding: 0;
+    height: 100vh;
+}
+.sec_fourth {
+    padding: 0;
+    height: 100vh;
+}
+.footer_top { /* 2/1/2019 gs*/
+    background-image: url(/image/footer_bck.png);
+    background-repeat: no-repeat;
+    background-position-x: -680px;
+    background-size: cover;
+    height: 60vh;
+}
+.footer_bottom { /* 2/1/2019 gs*/
+    background-color: #0064c7;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+.top-footer-contain {
+    padding-top: 40px !important;
+}
+.love_txt { /* 2/1/2019 gs*/
+    font-family: PayPal Sans Big Light;
+    font-size: 30px;
+    letter-spacing: -0.2px;
+    color: #ffffff;
+}
+.bottom-container { /* 2/1/2019 gs*/
+    padding: 80px 80px 75px 80px !important;
+}
+.topfobutton { /* 2/1/2019 gs*/
+    padding-bottom: 135px;
+}
+.select_sec {
+    text-align: right;
+}
+.bargraph {
+    margin: auto;
+    padding-right:0;
+}
+.bar_prt {
+    padding-right: 0;
+}
+.bar_graph {
+    text-align: right;
+    padding-top: 72px;
+}
+.custum-fluid {
+    padding: 13px 13px 45px 80px !important; /* 2/1/2019 gs*/
+}
+.footer_bar {
+    width: 100%; /* 2/1/2019 gs*/
+}
+.fbar_text {   /* 2/1/2019 gs*/
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    max-width: 536px;
+    margin-bottom: 45px;
+    width: 100%;
+    font-family: PayPal Sans Big Light;
+}
+.fsingle_line {  /* 2/1/2019 gs*/
+    border: 7px solid #ececec;
+    margin-bottom: 33px;
+    width: 100%;
+    max-width: 390px;
+}
+.bar_text {
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    max-width: 406px;
+    margin-bottom: 45px;
+    width: 100%;
+    font-family: PayPal Sans Big Light;
+}
+.grow-text {
+    font-family: PayPal Sans Big;
+}
+.single_line {
+    border: 7px solid #ececec;
+    margin-bottom: 33px;
+    width: 60%;
+}
+.lorem-text {
+    width: 100%;
+}
+.lorem-text p {
+    max-width: 356px;
+    font-size: 20px;
+    font-family: PayPal Sans Big Light;
+}
+.carousel-fluid {
+    padding: 0 80px 30px 80px;
+}
+.scroll_second {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-family: PayPal Sans Big Light;
+}
+.select_option select {
+    width: 390px;
+    max-width: 390px;
+    height: 72px;
+    border-radius: 36px;
+    background-color: #0064c7;
+    color: #fff;
+    padding: 14px 25px;
+    font-size: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(/image/down-arrow.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    outline: none;
+    cursor: pointer;
+    font-family: PayPal Sans Big;
+}
+.select_option {
+    text-align: right;
+    z-index: 999;
+    position: relative;
+}
+html {
+  scroll-behavior: smooth;
+}
+header.header-logo {
+    display: block;
+    width: 100%;
+    z-index: 99999;
+    line-height: 23px;
+}
+.cont_prt {
+    width: 100%;
+}
+.scount_img {
+    padding: 30px 0;
+}
+.smap {
+    text-align: right;
+}
+.smap svg {
+    width: 100%;
+}
+.second_carousel {
+    padding-top: 150px;
+}
+.map-continue {
+    margin: 0 auto;
+}
+.map_notification {
+    text-align: left;
+}
+.map_notification {
+    position: absolute;
+    width: 300px;
+    z-index: 9;
+    left: 450px;
+    height: 100px;
+    bottom: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px 95px 5px 5px;
+    text-align: center;
+}
+.map_note_text {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 8px;
+    font-family: PayPal Sans Big Light;
+}
+.map_prt {
+    padding-right: 0 !important;
+}
+.cont_prt {
+    padding-top:80px;
+}
+.select_sprt {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    padding-right: 0;
+    z-index: 9999;
+}
+.blue-border {
+    border: 5px solid #009cec;
+    margin-top: 32px;
+    margin-bottom: 33px;
+    width: 75%;
+    margin-left: 15px;
+    display: none;
+}
+.black-border {
+    border: 2px solid #000000;
+    margin-top: 52px;
+    width: 42%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+.swipe_text {
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 21px;
+    display: none;
+}
+.carousel_custom1 {
+    padding-bottom: 58px;
+    display: inline-block;
+}
+.merchant {
+    display: none;
+}
+.mobile_bar {
+    display: none;
+}
+.scroll_mobiles {
+    display: none;
+}
+.tcustum-fluid {
+    padding: 13px 13px 45px 80px;
+}
+.ncarousel-fluid {
+    margin-top: -50px;
+}
+.scarousel_custom {
+    z-index: 9999;
+}
+.bar_sldr div:focus {
+    outline: none !important;
+}
+.bar_sldr:focus {
+    outline: none !important;
+}
+.br_sldr_upr:focus {
+    outline: none !important;
+}
+.both_ply_pause .button {
+    background: transparent;
+    border: none;
+    line-height: 3.5;
+    cursor: pointer;
+}
+.both_ply_pause {
+    width: 80px;
+    margin: auto;
+    background: #0064c7;
+    height: 39px;
+    border-radius: 38px;
+    position: relative;
+    right: 136%;
+}
+.both_ply_pause .button:focus {
+    outline: none;
+}
+.both_ply_pause .button img:focus {
+    outline: none;
+}
+.footer_papal_buttn a { /* 2/1/2019 gs*/
+    max-width: 318px;
+}
+.footer_papal_buttn a { /* 2/1/2019 gs*/
+    color: #000000;
+    width: 100%;
+    border-radius: 50px;
+    border: 3px solid #009cec;
+    background-color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 35px 25px 22px 25px;
+    font-size: 18px;
+    font-family: PayPal Sans Big;
+    display: inline-flex;
+}
+.footer_papal_buttn a::before {
+    content: url('/image/paypal_icon.png');
+    padding-right: 18px;
+}
+
+.frst_sld {
+    float: left;
+    padding-bottom: 10px;
+}
+.sldr_dot {
+    background: #009cec;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+.sldr_line {
+    bottom: 15px;
+    background: #eaeaea;
+    width: 75px;
+    height: 8px;
+    position: relative;
+    left: 42px;
+    z-index: -1;
+}
+.sldr_line_last {
+    background: transparent !important;
+}
+.slider_whole_dot {
+    position: relative;
+    right: 96%;
+    top: 114px;
+}
+.year_dot {
+    padding-left: 21px;
+    font-weight: 500;
+}
+.slider_whole_dot_mob {
+    position: absolute;
+    bottom: -90%;
+}
+.both_ply_pause_map {
+    width: 80px;
+    margin: auto;
+    background: #0064c7;
+    height: 39px;
+    border-radius: 38px;
+}
+.both_ply_pause_map .button {
+    background: transparent;
+    border: none;
+    line-height: 3.5;
+    cursor: pointer;
+}
+.sldr_line_map {
+    bottom: 15px;
+    background: #eaeaea;
+    width: 65px;
+    height: 8px;
+    position: relative;
+    z-index: -1;
+    max-width: 19vw;
+}
+.sldr_line_last {
+    max-width: 1vw;
+}
+.year_dot_map {
+    font-weight: 500;
+}
+.both_ply_pause_map .button:focus {
+    outline: none;
+}
+.smap div:focus{
+    outline: none;
+}
+
+path {
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.districts {
+  fill: #bbb;
+}
+
+.districts :hover {
+  fill: orange;
+}
+
+.district-boundaries {
+  pointer-events: none;
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
+}
+
+.state-boundaries {
+  pointer-events: none;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.arcs path {
+  stroke-width: 2px;
+  stroke: #fff;
+  pointer-events: none;
+  fill: none;
+}
+
+.feature {
+  fill: #ccc;
+  cursor: pointer;
+}
+
+.feature.active {
+  fill: orange;
+}
+
+.stroke {
+    fill: none;
+    stroke: #000;
+    stroke-width: 3px;
+}
+
+@media (max-width: 767px){
+    .mHide {
+        display: none !important;
+    }
+    .dHide {
+        display: block !important;
+    }
+    .ply_pause_btn_map {
+        float: left;
+        margin-left: -33px;
+    }
+    .container-fluid {
+        padding: 0px 7px 0px 7px !important; /* 2/1/2019 gs*/
+    }
+    header.header-logo {
+        padding: 10px 7px 83px 7px !important; /* 2/1/2019 gs*/
+    }
+    .button_sec {
+        margin: 0;
+        padding-top: 20px;
+    }
+    .black-border {
+        border: 2px solid #000000;
+        margin-top: 0px;
+        width: 42%;
+        margin-left: auto;
+        margin-right: auto;
+        display: none;
+    }
+    .row{
+        margin:auto !important;
+        padding: 0px;  /* 2/1/2019 gs*/
+    }
+    .cont_prt {
+        display:none;
+    }
+    .map_prt {
+        padding: 0 !important;
+    }
+    .map_text {
+        position: absolute !important;
+        bottom: 0 !important;
+        z-index: 1 !important;
+        margin-bottom: 25px;
+        padding-top: 5px;
+        background-color: #fff;
+    }
+    .sme_bar_graph {
+        height: 50vh;
+        padding-top:60px;
+    }
+    .bargraph {
+        height:60vh;
+    }
+    .slider_whole_dot_map {
+        padding-left: 8px;
+    }
+    .slider_whole_dot_bar {
+        padding-left: 20px;
+    }
+    .footer-sec {
+        height: 100vh;
+    }
+    .footer_top { /* 2/1/2019 gs*/
+        background-image: url(/image/footer_bck.png);
+        background-repeat: no-repeat;
+        background-position-x: -680px;
+        background-size: cover;
+        height: 60vh;
+    }
+    .footer_bottom { /* 2/1/2019 gs*/
+        background-color: #0064c7;
+        height: 40vh;
+    }
+    .papl-logo {
+        width: 70%;
+    }
+    .papl-logo {
+        padding-right: 18px;
+    }
+    .word-logo {
+        width: 30%;
+    }
+    .word-logo {
+        padding-left: 22px;
+    }
+    .watch_text {
+        font-size: 35px;
+    }
+    .papal_buttn a {
+        padding: 25px 25px 15px 25px;
+        font-size: 16px; /* 2/1/2019 gs*/
+    }
+    .footer_papal_buttn a {
+        padding: 25px 25px 15px 25px;
+        font-size: 16px; /* 2/1/2019 gs*/
+    }
+    .mobile-bottom { /* 2/1/2019 gs*/
+        display: block;
+    }
+    .mobile-bottom_txt { /* 2/1/2019 gs*/
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding-top: 40px;
+    }
+    .footer_bar { /* 2/1/2019 gs*/
+        display: none;
+    }
+    .fsingle_line { /* 2/1/2019 gs*/
+        display: none;
+    }
+    .top-three { /* 2/1/2019 gs*/
+        display: none !important;
+    }
+    .topfobutton { /* 2/1/2019 gs*/
+        padding-bottom: 0;
+    }
+    .love_txt { /* 2/1/2019 gs*/
+        font-size: 24px;
+        padding-top: 0px;
+    }
+    .feedback_full { /* 2/1/2019 gs*/
+        display: none !important;
+    }
+    .top-footer-contain { /* 2/1/2019 gs*/
+        padding-bottom: 37px !important;
+    }
+    .bottom-fcontainer { /* 2/1/2019 gs*/
+        padding-top: 39px !important;
+    }
+    .feed_other { /* 2/1/2019 gs*/
+        padding-top: 0;
+    }
+    .iuv-txt { /* 2/1/2019 gs*/
+        width: 54%;
+    }
+    .info-txt { /* 2/1/2019 gs*/
+        width: 46%;
+    }
+    .bottom_two { /* 2/1/2019 gs*/
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .update_prt { /* 2/1/2019 gs*/
+        right: auto;
+    }
+    .topfobutton .button_sec { /* 2/1/2019 gs*/
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        text-align: center;
+    }
+    .both_ply_pause { /* 2/1/2019 gs*/
+        right: 40%;
+        top: 132px;
+        z-index: 99;
+    }
+    .sec_first {
+        background-image: url(/image/05m.png);
+        background-position-x: -5px;
+        background-position-y: -70px;
+        height:100vh;
+    }
+    .blue-border {
+        display: block;
+    }
+    .black-border {
+        display: block;
+    }
+    .scroll_begin {
+        margin-top: 0px;
+    }
+    .scroll_cntnu {
+        display: none;
+    }
+    .scroll_text {
+        display: none;
+    }
+    .swipe_text {
+        display: block;
+        text-decoration: none;
+        color:#000;
+    }
+    .swipe_text a {
+        display: block;
+        text-decoration: none;
+        color:#000;
+    }
+    .merchant {
+        display: block;
+        font-size: 17px;
+        font-weight: initial;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.59;
+        letter-spacing: -0.2px;
+        color: #000000;
+    }
+    /* .carousel_custom1 img {
+        float: left;
+        width: 30%;
+    } */
+    .carousel_custom1 span.merchant {
+        float: right;
+        width: 65%;
+    }
+    .count_img {
+        display: none;
+    }
+    .custum-fluid {
+        display: none;
+    }
+    .mobile_bar {
+        display: block;
+        text-align: center;
+    }
+    .ply_pause_btn { /* 2/1/2019 gs*/
+        margin-top: -60px;
+    }
+    .bar_graph { /* 2/1/2019 gs*/
+        padding-top: 0;
+    }
+    /**.bar_graph {
+        display: none;
+    } **/
+    .select_option select {
+        width: 296px;
+        height: 60px;
+    }
+    .select-fluid {
+        padding: 7px 28px 43px 28px;
+    }
+    .scroll_mobiles {
+        width: 100%;
+        display: block;
+        padding-top: 32px;
+        padding-bottom: 7px;
+        background-color: #f7f7f7;
+        font-family: PayPal Sans Big Light;
+    }
+    .scroll_second {
+        display: none;
+    }
+    .carousel-fluid {
+        padding-bottom: 20px;
+    }
+    .cntbr_txt {
+        display: flex;
+    }
+    .cntbr_txt .cont_prt {
+        width: 24%;
+    }
+    .cntbr_txt .scount_img {
+        padding: 0px 0;
+    }
+    .cntbr_txt .bar_text {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 28px;
+        width: 90%;
+        font-family: PayPal Sans Big Light;
+    }
+    .mobile_line {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .lorem-text p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .map_notification {
+        display:none;
+    }
+    .tcustum-fluid {
+        padding: 13px 28px 7px 28px;
+    }
+    .ncarousel-fluid {
+        padding: 0 28px 18px 28px !important;
+    }
+    .papal_buttn {
+        margin: auto;
+    }
+    .select_option {
+        text-align: center;
+    }
+    .carousel_custom2 {
+        text-align: center;
+    }
+    .select_sprt {
+        position: absolute;
+        top: 40px;
+        right: 20px;
+        padding-right: 0 !important;
+        z-index: 9999;
+    }
+    .ncarousel-fluid {
+        margin-top: 0;
+    }
+}
+@media (min-width: 481px) and (max-width: 600px){
+    .papl-logo {
+        width: auto;
+        padding-right: 22px;
+    }
+    .word-logo {
+        width: auto;
+        padding-left: 20px;
+    }
+    .carousel_custom1 img {
+        width: auto;
+    }
+}
+@media (min-width: 601px) and (max-width: 767px){
+    .papl-logo {
+        width: auto;
+        padding-right: 45px;
+    }
+    .word-logo {
+        width: auto;
+        padding-left: 41px;
+    }
+    .carousel_custom1 img {
+        width: auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 996px){
+    .select_option select {
+        width: 280px;
+        max-width: 330px;
+    }
+    .ncarousel-fluid {
+        margin-top: 0;
+    }
+    .map_notification img {
+        top: 60%;
+        width: 75%;
+        margin-left: 15px;
+    }
+}
+@media (min-width: 997px) and (max-width: 1190px){
+    .ncarousel-fluid {
+        margin-top: 0;
+    }
+}
+.mapael .zoomButton {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #000;
+    width: 15px;
+    height: 15px;
+    line-height: 10px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    font-weight: bold;
+
+    -webkit-user-select: none;
+    -khtml-user-select : none;
+    -moz-user-select: none;
+    -o-user-select : none;
+    user-select: none;
+}
+
+/* Reset Zoom button first */
+.mapael .zoomReset {
+    top: 10px;
+}
+
+/* Then Zoom In button */
+.mapael .zoomIn {
+    top: 30px;
+}
+
+/* Then Zoom Out button */
+.mapael .zoomOut {
+    top: 50px;
+}
+
